@@ -15,7 +15,7 @@ st.set_page_config(
 def load_data(url):
     df = pd.read_csv(url)
     return df
-df = load_data("https://github.com/Bethana86/DataViz-TableauLike/blob/main/SampleSuperstore.csv")
+df = load_data("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv")
 
 # Set title and subtitle
 st.title('DRAG AND DROP DATA VISUALIZATION App')
