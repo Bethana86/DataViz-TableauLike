@@ -28,3 +28,12 @@ def load_config(file_path):
     return config_str
 config = load_config('config.json')
 pyg.walk(df, env='Streamlit', dark='dark', spec=config)
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
