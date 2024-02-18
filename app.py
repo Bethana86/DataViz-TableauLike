@@ -5,7 +5,7 @@ import pygwalker as pyg
 # Set page configuration
 st.set_page_config(
     page_title="DRAG AND DROP DATA VISUALIZATION - DEMO",
-    page_icon=":snake:",
+    page_icon=":maths:",
     layout="wide",
     initial_sidebar_state="expanded",
 )
