@@ -4,7 +4,7 @@ import pygwalker as pyg
 
 # Set page configuration
 st.set_page_config(
-    page_title="PyGWalker Demo",
+    page_title="DRAG AND DROP DATA VISUALIZATION - DEMO",
     page_icon=":snake:",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -15,11 +15,11 @@ st.set_page_config(
 def load_data(url):
     df = pd.read_csv(url)
     return df
-df = load_data("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv")
+df = load_data("https://github.com/Bethana86/DataViz-TableauLike/blob/main/SampleSuperstore.csv")
 
 # Set title and subtitle
-st.title('PyGWalker Demo App')
-st.subheader('A demonstration of the PyGWalker Python library')
+st.title('DRAG AND DROP DATA VISUALIZATION App')
+st.subheader('A demonstration of the DRAG AND DROP DATA VISUALIZATION App')
 
 # Display PyGWalker
 def load_config(file_path):
